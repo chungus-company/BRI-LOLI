@@ -1,0 +1,106 @@
+
+body {
+    color: #dadada;
+    line-height: 1.75;
+    width: 100%;
+    background: url(../img/estadio1.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Open Sans';
+    overflow-x:hidden;
+}
+
+h1,h2{
+    color: #000000;
+    line-height: 1.16667;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(150,150,150,1);
+}
+
+h1 {
+    font-size: 43px;
+    font-family: Montserrat;
+    font-weight: 700;
+    border: 2px dashed #fff;
+    margin-top: 50px;
+    padding: 10px;
+    cursor: pointer;
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+}
+
+h1:hover {
+    -webkit-transform: rotateX(360deg);
+    -moz-transform: rotateX(360deg);
+    -ms-transform: rotateX(360deg);
+    -o-transform: rotateX(360deg);
+    transform: rotateX(360deg);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 30px;
+}
+
+.container {
+    width: 58%;
+    margin: 40px auto 0;
+}
+
+
+
+/* TIMER */
+#counter {
+    margin-top: 28px;
+}
+
+.countdown_section {
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    width: 25%;
+    letter-spacing: 1px;
+    padding: 42px 12px 28px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-shadow: 2px 2px 2px rgba(150,150,150,1);
+    text-transform: uppercase;
+}
+
+.countdown_section:first-child {
+    border-left: 0;
+}
+
+.countdown_amount {
+    color: black;
+    display: block;
+    font-family: 'Open Sans';
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 1;
+}
+
+
+
+
+/* FOOTER*/
+footer {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(150,150,150,1);
+}
+
+footer a {
+    color: #fff;
+}
+
