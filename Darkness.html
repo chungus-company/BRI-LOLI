@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>Darkness</title>
+        <link rel="stylesheet" href="css/background.css">
+        <link src = "js/galaxian.js">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,300,700,800' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href="css/contador.css" media="screen" rel="stylesheet">
+        <!--<link href="css/menu.css"  rel="stylesheet">
+        <script src = "js/menu.js"></script> -->
+        <script type="text/javascript"></script>
+        <script src = "js/countdown.js"></script>
+        <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script>
+        var es_chrome = navigator.userAgent.toLowerCase().indexOf('Chrome')> -1; 
+
+            if(es_chrome){ 
+			    alert("El navegador que está utilizando es Chrome"); 
+            }
+            var es_Firefox = navigator.userAgent.toLowerCase().indexOf('Firefox') > -1;
+            if(es_Firefox){
+                alert("El navegador que está utilizando es Chrome");
+            }
+            var es_Opera = navigator.userAgent.toLowerCase().indexOf('Opera') > -1;
+            if(es_Opera){
+                alert("El navegador que está utilizando es Opera");
+            }
+            var es_ie = navigator.userAgent.toLowerCase().indexOf('MSIE') > -1;
+            if(es_ie){
+                alert("El navegador que está utilizando es Internet Explorer");
+
+
+            }
+            
+            addEventListener( event_type, event_handler, capture ) 
+            window.addEventListener( "keypress", doKeyDown, false )
+
+            var canvas = document.getElementById ("canvas_1"); 
+
+            canvas.addEventListener ("keydown", doKeyDown, true);
+
+            function doKeyDown (e) 
+            {
+                alerta (e.keyCode)
+            }
+
+    </script>	
+
+    
+
+	</head>
+    <body>
+                    
+
+
+
+            <div class="container">
+
+                    
+                    <header>
+                        <h1>DARKNESS</h1>
+                    </header>
+        
+                    <section>
+                        <h2>flechas para moverse, esc para disparar</h2>
+        
+                        <p class="details"></p>
+        
+                        <div id="counter"></div>
+        
+                        <div class="wrap">
+                                <div class="game-wrapper">
+                                  <div class="game"></div>
+                                </div>
+                                <div class="congratulations">
+                                        <h2>Perdiste igual</h2>
+                                        <h3>Vamo lo pibe</h3>
+                                        <button class="btn" onclick="window.location.reload()">Restart</button>
+                                      </div>
+                                      <div class="game-over">
+                                        <h2>PERDISTE</h2>
+                                        <h3>Perdiste alpiste</h3>
+                                        <button class="btn" onclick="window.location.reload()">Restart</button>
+                                        <!--<button class="btn" onclick="location.href='js/game2.js';">Restart </button>
+                                        <input type="button" name="restart" value="Restart" onclick="location.href='galaxian.html';">-->
+                                      </div>
+                                    </div>
+                                    <footer>Left/right keys to move, esc to shoot</footer>
+                                  </div>
+                        </div>
+                        
+                    </section>
+                    
+
+                    
+
+                    <footer>
+                        <a href="https://twitter.com/agustiin_rivera" target="_blank">@agustiin_rivera</a>
+                        <a href="https://twitter.com/agustiin_rivera" target="_blank">@frankskeree</a>
+                    </footer>
+                </div>
+        
+
+
+                
+        <!--       
+    <div id="body2">    
+      <div id="game">             
+          <div id="main" class="frame visible">                
+              <h2>Darkness</h2>                 
+               <button onclick="game.setFrameVisible('canvas');game.setFrameHidden('main');"> Jugar </button>  
+                   <button onclick="game.setFrameVisible('highscores');game.setFrameHidden('main');"> Puntuaciones</button>                 
+                            <button onclick="game.setFrameVisible('about');game.setFrameHidden('main');"> Creditos </button>             
+                                </div>            
+                                     <div id="canvas" class="frame hidden"> <canvas></canvas> <button onclick="game.setFrameVisible('main');game.setFrameHidden('canvas');"> Volver al menu</button>      
+                                     </div> 
+                                     <div id="highscores" class="frame hidden"><h1> Puntuaciones mas altas </h1> 
+                                        <button onclick="game.setFrameVisible('main');game.setFrameHidden('highscores');">Volver al menu </button>             
+                                         </div>             
+                                            <div id="about" class="frame hidden"> <h2>  Agustin Rivera  </h2> 
+                                                <br />                 
+                                                <a href="https://twitter.com/agustiin_rivera" target="_blank">@agustiin_rivera</a>  
+                                                    <br />                 
+                                                       <button onclick="game.setFrameVisible('main');game.setFrameHidden('about');">Volver al menu </button>  
+                                                   </div>         
+                                               </div>                                 
+                                            </div> 
+
+                                            -->
+        
+        
+       
+           
+            <embed src="sound/wick_music.ogg" autostart="true" loop="true" volume="80" width="0" height="0">
+        <canvas id="gameScreen">Tu navegador no es compatible con el elemento canvas de html5. Use un navegador compatible.</canvas>
+      
+        
+        <script id="myscript" type="text/javascript" src="js/game.js"></script>
+        <script id="myscript" type="text/javascript" src="js/myscript.js" ></script>
+        <!--<script type="text/javascript" src="js/game2.js"></script>-->
+        
+        <div id="img" ><img src="img/pikachugif.gif" alt="pikachu" width="480" height="270" > </div>
+        <div id="img2" ><img src="img/pikachugif.gif" alt="pikachu" width="480" height="270" > </div>
+        
+
+      </body>
+
+</html>
